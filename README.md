@@ -1,0 +1,1 @@
+More details on how to use stijit grid are here - <a href="http://grid.stijit.com/">grid.stijit.com</a>
