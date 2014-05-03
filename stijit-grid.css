@@ -15,10 +15,6 @@ body {
   padding-right: 20px;
 }
 
-[class*='s-']:last-of-type .nopadding {
-  padding-right: 0px;
-}
-
 img {
   max-width: 100%;
 }
@@ -270,7 +266,7 @@ img {
 
 /* ----Grid---- */
 
-.grid {
+.l {
   width: 100%;
   max-width: 1140px;
   min-width: 755px;
@@ -278,17 +274,17 @@ img {
   overflow: hidden;
 }
 
-.grid:after {
+.l:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.grid-pad {
+.l-pad {
   padding: 20px 0 0 20px;
 }
 
-.grid-pad > [class*='col-']:last-of-type {
+.l-pad > [class*='col-']:last-of-type {
   padding-right: 20px;
 }
 
@@ -432,7 +428,7 @@ img {
 
 @media handheld, only screen and (max-width: 767px) {
 
-  .grid {
+  .l {
     width: 100%;
     min-width: 0;
     margin-left: 0px;
